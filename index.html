@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website Checklist</title>
+    <link rel="mobile" href="styles/p1_main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.slicknav.min,js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('nav_menu').slicknav({prepareTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+<body>
+        <header>
+            <h2>Travel Checklist</h2>
+        </header>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="#">How to decide when to travel</a></li>
+                <li><a href="#">Booking where to stay</a></li>
+                <li><a href="#">Places to go</a>
+                        <ul class="submenu" style="list-style: cirlce;">
+                            <li><a href="#">Temples</a></li>
+                            <li><a href="#">Museums</a></li>
+                            <li><a href="#">Beaches</a></li>
+                            <Li><a href="#">Restaurants</a></Li>
+                        </ul>
+                </li>
+                <li><a href="#">Estimated budget</a></li>
+                <li><a href="#">Emergiences</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Purpose</h2>
+                <p>Planning trips can be hard when you are planning with yourself or with others.
+                    To make things easier I made a checklist to insure that your worries goes away
+                    and you have this website to rely on to have a good time on your trip.
+                </p>
+                <h2>Checklist</h2>
+                <ul>
+                    <li>When to travel</li>
+                    <li>Bookings</li>
+                    <li>Places to go</li>
+                    <li>Estimated budget</li>
+                    <li>Emergiences</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy 2023, Zubaidah Bandele, Creator
+                Eamil: betabt121@gmail.com
+                Terms of Service Privacy
+            </p>
+        </footer>
+</body>
+</html>
