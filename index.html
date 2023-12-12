@@ -4,60 +4,88 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Website Checklist</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous">
-    </script>
 </head>
 <body>
         <header>
             <h2>Travel Checklist</h2>
         </header>
-        <nav id="mobile_menu"></nav>
-        <nav id="nav_menu">
-            <ul>
-                <li><a href="index.html" class="current">Home</a></li>
-                <li><a href="#">How to decide when to travel</a></li>
-                <li><a href="#">Booking where to stay</a></li>
-                <li><a href="#">Places to go</a>
-                        <ul class="submenu" style="list-style: cirlce;">
-                            <li><a href="#">Temples</a></li>
-                            <li><a href="#">Museums</a></li>
-                            <li><a href="#">Beaches</a></li>
-                            <Li><a href="#">Restaurants</a></Li>
-                        </ul>
-                </li>
-                <li><a href="#">Estimated budget</a></li>
-                <li><a href="#">Emergiences</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <main>
-            <section>
-                <h2>Purpose</h2>
-                <p>Planning trips can be hard when you are planning with yourself or with others.
-                    To make things easier I made a checklist to insure that your worries goes away
+       <nav class="interiorNav navbar navbar-expand-md navbar-light">
+           
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item dropdown">
+                            <a data-inviewport="nav-link" class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a data-inviewport="nav-link" class="current nav-link dropdown-toggle" href="when.html">How to decide
+                            when to travel</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a data-inviewport="nav-link" class="current nav-link dropdown-toggle" href="booking.html">Booking where to stay</a>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="places.html" id="navbardrop"data-toggle="dropdown" aria-expanded="false">Places to go</a>
+
+                            <div class="dropdown-menu">
+                                <ul>
+                                    <li><a class="dropdown-item" href="temples.html">Temples</a></li>
+                                    <li><a class="dropdown-item" href="museums.html">Museums</a></li>
+                                    <li><a class="dropdown-item" href="beaches.html">Beaches</a></li>
+                                    <li><a class="dropdown-item" href="restaurants.html">Restaurants</a></li>
+                                </ul>
+                            </div>
+
+                            <li class="nav-item dropdown">
+                                <a data-inviewport="nav-link" class="current nav-link dropdown-toggle" href="budget.html">Estimated budget</a>
+                            <li class="nav-item dropdown">
+                                <a data-inviewport="nav-link" class="current nav-link dropdown-toggle" href="emergencies.html">Emergencies</a>
+
+                            <li class="nav-item dropdown">
+                                <a data-inviewport="nav-link" class="nav-link active" href="contact.html">Contact</a>
+                            </li>
+                    </li>
+                    </ul>
+                </div>
+       </nav>
+    <main>
+        <section>
+            <h2>Purpose</h2>
+            <p>Planning trips can be hard when planning with yourself or others.
+                    To make things easier I made a checklist to ensure that your worries go away
                     and you have this website to rely on to have a good time on your trip.
-                </p>
-                <h2>Checklist</h2>
-                <ul>
-                    <li>When to travel</li>
-                    <li>Bookings</li>
-                    <li>Places to go</li>
-                    <li>Estimated budget</li>
-                    <li>Emergiences</li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-            <p>&copy 2023, Zubaidah Bandele, Creator
-                Email: betabt121@gmail.com
-                Terms of Service Privacy
             </p>
-        </footer>
+            <h2>Checklist</h2>
+            <ul>
+                <li>When to travel</li>
+                <li>Bookings</li>
+                <li>Places to go</li>
+                <li>Estimated budget</li>
+                <li>Emergiences</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Zubaidah Bandele, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+    </script>
 </body>
 </html>
