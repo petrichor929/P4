@@ -62,11 +62,6 @@ header {
   );
 }
 
-header img {
-  float: left;
-  padding: 0 3.75%;
-}
-
 /* Redundant styling for img in the header removed */
 
 .shadow {
