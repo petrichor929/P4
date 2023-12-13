@@ -1,62 +1,65 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/booking.css">
+</head>
+
+<body>
     <nav class="interiorNav navbar navbar-expand-md navbar-light">
-           
-                <!-- Responsive Button for the smaller menu -->
-                <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <!-- Links -->
+        <!-- Responsive Button for the smaller menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <!-- Links -->
+                <li class="nav-item dropdown">
+                    <a data-inviewport="nav-link" class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a data-inviewport="nav-link" class="current nav-link dropdown-toggle" href="when.html">How to decide
+                        when to travel</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a data-inviewport="nav-link" class="current nav-link dropdown-toggle" href="booking.html">Booking where to stay</a>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="places.html" id="navbardrop" data-toggle="dropdown" aria-expanded="false">Places to go</a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a class="dropdown-item" href="temples.html">Temples</a></li>
+                                <li><a class="dropdown-item" href="museums.html">Museums</a></li>
+                                <li><a class="dropdown-item" href="beaches.html">Beaches</a></li>
+                                <li><a class="dropdown-item" href="restaurants.html">Restaurants</a></li>
+                            </ul>
+                        </div>
                         <li class="nav-item dropdown">
-                            <a data-inviewport="nav-link" class="nav-link active" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a data-inviewport="nav-link" class="current nav-link dropdown-toggle" href="when.html">How to decide
-                            when to travel</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a data-inviewport="nav-link" class="current nav-link dropdown-toggle" href="booking.html">Booking where to stay</a>
-
-                        <!-- Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="places.html" id="navbardrop"data-toggle="dropdown" aria-expanded="false">Places to go</a>
-
-                            <div class="dropdown-menu">
-                                <ul>
-                                    <li><a class="dropdown-item" href="temples.html">Temples</a></li>
-                                    <li><a class="dropdown-item" href="museums.html">Museums</a></li>
-                                    <li><a class="dropdown-item" href="beaches.html">Beaches</a></li>
-                                    <li><a class="dropdown-item" href="restaurants.html">Restaurants</a></li>
-                                </ul>
-                            </div>
-
-                            <li class="nav-item dropdown">
-                                <a data-inviewport="nav-link" class="current nav-link dropdown-toggle" href="budget.html">Estimated budget</a>
+                            <a data-inviewport="nav-link" class="current nav-link dropdown-toggle" href="budget.html">Estimated budget</a>
                             <li class="nav-item dropdown">
                                 <a data-inviewport="nav-link" class="current nav-link dropdown-toggle" href="emergencies.html">Emergencies</a>
-
-                            <li class="nav-item dropdown">
-                                <a data-inviewport="nav-link" class="nav-link active" href="contact.html">Contact</a>
+                                <li class="nav-item dropdown">
+                                    <a data-inviewport="nav-link" class="nav-link active" href="contact.html">Contact</a>
+                                </li>
                             </li>
                     </li>
-                    </ul>
-                </div>
-       </nav>
+            </ul>
+        </div>
+    </nav>
     <main>
         <section>
             <img src="../images/" alt="">
             <h2><b>Advice</b></h2>
-            <p>When booking hotels and Airbnbs it is advised that it is best to book those rooms way advice of your trip just
-            in case others are looking at those same rooms and have the chance to book before you.
+            <p>When booking hotels and Airbnbs, it is advised to book those rooms well in advance of your trip just
+                in case others are looking at those same rooms and have the chance to book before you.
             </p>
-            <h2><<b>Airbnb Options in Greece</b></h2>
-            <ol>
+            <h2><b>Airbnb Options in Greece</b></h2>
+           ol>
                 <li>Athens, Greece</li>
                 <p>Airbnb listings in Plaka or Syntagma Square are located with access to shops and dining.</p>
                 <li>Santorini, Thira, Greece</li>
@@ -126,19 +129,21 @@
             </ol>
         </section>
     </main>
-    <footer class="footer page-footer font-small ">
+    <footer class="footer page-footer font-small">
         <div class="container">
-        <div class="row">
-            <span class="text-muted">&copy; Zubaidah Bandele, 2023 |  Terms Of Use  |  Privacy Statement</span>
-        </div>
+            <div class="row">
+                <span class="text-muted">&copy; Zubaidah Bandele, 2023 | Terms Of Use | Privacy Statement</span>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-b12dFkG9ScZ3zT04Fq+oaSJIe7iJ3dJmpSSr3cbkF5MYEF5zQooOn7FH3BuEUCIH"
-    crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"></script>
-    </body>
+        integrity="sha384-b12dFkG9ScZ3zT04Fq+oaSJIe7iJ3dJmpSSr3cbkF5MYEF5zQooOn7FH3BuEUCIH"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
