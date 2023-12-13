@@ -1,0 +1,54 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Set a base font size and style */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f0f0f0; /* Light gray background color */
+}
+/* Style the navigation bar */
+nav {
+  background-color: #007bff; /* Bootstrap's primary color */
+}
+nav a {
+  color: #fff; /* White text for links */
+}
+/* Style the main content section */
+main {
+  padding: 20px;
+}
+/* Style the article section */
+article {
+  margin-bottom: 20px;
+}
+article img {
+  max-width: 100%; /* Make images responsive */
+  height: auto;
+}
+/* Add some spacing and style to the list items in the article */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 10px;
+}
+/* Apply some additional styles to the links in the navigation */
+nav a:hover, nav a:active {
+  text-decoration: underline;
+}
+/* Add a shadow effect to the images */
+article img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Style the footer */
+footer {
+  background-color: #f8f9fa; /* Light gray background color */
+  padding: 10px;
+  text-align: center;
+}
