@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  font-family: Papyrus, Copperplate, fantasy;
+  font-size: 100%;
+  width: 98%;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 3px solid silver;
+  background-color: #dcdcdc;
+  line-height: 1.6;
+}
+
+a:focus,
+a:hover {
+  font-weight: bold;
+}
+
+header {
+  padding: 10px;
+  border-bottom: 3px solid silver;
+  text-align: center;
+  background-image: -moz-linear-gradient(
+    30deg,
+    #f6bb73 0%,
+    #f6bb73 30%,
+    white 50%,
+    #f6bb73 80%,
+    #f6bb73 100%
+  );
+  background-image: -webkit-linear-gradient(
+    30deg,
+    #f6bb73 0%,
+    #f6bb73 30%,
+    white 50%,
+    #f6bb73 80%,
+    #f6bb73 100%
+  );
+  background-image: -o-linear-gradient(
+    30deg,
+    #f6bb73 0%,
+    #f6bb73 30%,
+    white 50%,
+    #f6bb73 80%,
+    #f6bb73 100%
+  );
+  background-image: linear-gradient(
+    30deg,
+    #f6bb73 0%,
+    #f6bb73 30%,
+    white 50%,
+    #f6bb73 80%,
+    #f6bb73 100%
+  );
+}
+
+header img {
+  float: left;
+  padding: 0 3.75%;
+}
+
+/* Redundant styling for img in the header removed */
+
+.shadow {
+  /* Add your shadow styles here */
+}
+
+nav {
+  background-color: #007bff;
+}
+
+nav a {
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Card styling */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
