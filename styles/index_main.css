@@ -3,11 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   background-color: white;
 }
-
 body {
   font-family: Papyrus, Copperplate, fantasy;
   font-size: 100%;
@@ -18,14 +16,11 @@ body {
   background-color: #dcdcdc;
   line-height: 1.6;
 }
-
-a:focus,
-a:hover {
+a:focus,a:hover {
   font-weight: bold;
 }
-
 header {
-  padding: 10px;
+  padding: 20px;
   border-bottom: 3px solid silver;
   text-align: center;
   background-image: -moz-linear-gradient(
@@ -61,31 +56,26 @@ header {
     #f6bb73 100%
   );
 }
-
-/* Redundant styling for img in the header removed */
-
-.shadow {
-  /* Add your shadow styles here */
-}
-
-nav {
+.navbar {
   background-color: #007bff;
 }
-
-nav a {
-  color: #fff;
+.navbar-brand img {
+  margin-right: 10px;
 }
-
-main {
-  padding: 20px;
+.navbar-toggler-icon {
+  background-color: #343a40;
 }
-
+.navbar-nav .nav-link {
+  color: #343a40;
+}
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
 /* Card styling */
 .card {
   margin-bottom: 20px;
   float: left;
 }
-
 /* Footer styling */
 footer {
   background-color: #f8f9fa;
