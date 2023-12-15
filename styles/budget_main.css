@@ -1,0 +1,85 @@
+/*DEVELOPER: Zubaidah Bandele, IS117-001, Fall, 2023 */
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a base font size and style */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  background-color: #e0e0e0; /* Light gray background color */
+}
+
+header {
+  padding: 20px;
+  border-bottom: 3px solid #999;
+  text-align: center;
+  background-color: #4CAF50; /* Green background color */
+  color: white;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #333; /* Dark background color */
+}
+
+nav a {
+  color: #fff; /* White text for links */
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #555; /* Darker background color on hover */
+}
+
+/* Style the main content section */
+main {
+  padding: 20px;
+}
+
+/* Style the article section */
+article {
+  margin-bottom: 20px;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Updated box shadow */
+}
+
+/* Add some spacing and style to the list items in the article */
+ul {
+  list-style-type: disc; /* Changed list style type */
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Apply some additional styles to the links in the navigation */
+nav a:hover,
+nav a:active {
+  text-decoration: underline;
+}
+
+/* Add a shadow effect to the images */
+article img {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Updated box shadow */
+}
+
+/* Style the footer */
+footer {
+  background-color: #e0e0e0; /* Light gray background color */
+  padding: 10px;
+  text-align: center;
+  border-top: 3px solid #999; /* Updated border color */
+}
