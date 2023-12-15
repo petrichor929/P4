@@ -69,10 +69,23 @@ header {
 .navbar-nav .nav-link {
   color: #343a40;
 }
+nav a:hover {
+  color:#007bff;
+}
+main {
+  padding: 20px;
+}
 /* Card styling */
 .card {
   margin-bottom: 10px;
   float: left;
+}
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+ul li {
+  margin-bottom: 10px;
 }
 /* Footer styling */
 footer {
