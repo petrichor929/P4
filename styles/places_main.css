@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+body {
+  font-family: 'Papyrus', 'Copperplate', fantasy, sans-serif;
+  font-size: 100%;
+  width: 98%;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 3px solid silver;
+  background-color: #dcdcdc;
+  line-height: 1.6;
+}
+
+a:focus, a:hover {
+  font-weight: bold;
+  transition: color 0.3s ease-in-out; /* Added hover animation */
+}
+
+header {
+  padding: 20px;
+  border-bottom: 3px solid silver;
+  text-align: center;
+  background: linear-gradient(
+    30deg,
+    #f6bb73 0%,
+    #f6bb73 30%,
+    #ffffff 50%,
+    #f6bb73 80%,
+    #f6bb73 100%
+  );
+}
+
+.navbar {
+  background-color: #007bff;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+  background-color: #343a40;
+}
+
+.navbar-nav .nav-link {
+  color: #343a40;
+  transition: color 0.3s ease-in-out; /* Added hover animation */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Footer styling */
+footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
