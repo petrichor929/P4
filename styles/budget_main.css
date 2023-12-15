@@ -18,7 +18,14 @@ header {
   padding: 20px;
   border-bottom: 3px solid #999;
   text-align: center;
-  background-color: #4CAF50; /* Green background color */
+  background: linear-gradient(
+    30deg,
+    #4CAF50 0%,
+    #4CAF50 30%,
+    #ffffff 50%, /* Changed color stop */
+    #4CAF50 80%,
+    #4CAF50 100%
+  );
   color: white;
 }
 
