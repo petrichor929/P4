@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box; /* Corrected typo here */
 }
 
 html {
@@ -24,7 +24,7 @@ header {
   color: #ffffff;
   text-align: center;
   padding: 20px;
-    background-image: -moz-linear-gradient(
+  background-image: -moz-linear-gradient(
     30deg,
     #f6bb73 0%,
     #f6bb73 30%,
@@ -84,9 +84,3 @@ footer {
   text-align: center;
 }
 
-}
-footer {
-  background-color: #f8f9fa;
-  padding: 10px;
-  text-align: center;
-}
