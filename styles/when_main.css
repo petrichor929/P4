@@ -70,12 +70,33 @@ header {
 .navbar-nav .nav-link {
   color: #343a40;
 }
-.navbar-nav .nav-link:hover {
+nav a:hover {
   color: #007bff;
+}
+main {
+  padding: 20px;
+}
+article {
+  margin-bottom: 20px;
+}
+article img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+ul li {
+  margin-bottom: 10px;
 }
 /* Footer styling */
 footer {
   background-color: #f8f9fa;
   padding: 10px;
   text-align: center;
+}
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
 }
