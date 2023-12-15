@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    font-family: Papyrus, Copperplate, fantasy;
+  font-size: 100%;
+  width: 98%;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 3px solid silver;
+  background-color: #dcdcdc;
+  line-height: 1.6;
+
+}
+
+nav {
+  background-color: #007bff; /* Bootstrap's primary color */
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+  background-color: #343a40;
+}
+
+.navbar-nav .nav-link {
+  color: #343a40;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+ul,
+ol {
+  margin-bottom: 16px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
