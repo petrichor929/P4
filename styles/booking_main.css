@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: Papyrus, Copperplate, fantasy;
+  font-family: 'Papyrus', 'Copperplate', fantasy;
   font-size: 100%;
   width: 98%;
   max-width: 960px;
@@ -20,35 +20,19 @@ body {
   line-height: 1.6;
 }
 
+body a {
+  background-color: white;
+}
+
+body li {
+  background-color: white;
+}
+
 header {
   background-color: #343a40;
   color: #ffffff;
   text-align: center;
   padding: 20px;
-  background-image: -moz-linear-gradient(
-    30deg,
-    #f6bb73 0%,
-    #f6bb73 30%,
-    white 50%,
-    #f6bb73 80%,
-    #f6bb73 100%
-  );
-  background-image: -webkit-linear-gradient(
-    30deg,
-    #f6bb73 0%,
-    #f6bb73 30%,
-    white 50%,
-    #f6bb73 80%,
-    #f6bb73 100%
-  );
-  background-image: -o-linear-gradient(
-    30deg,
-    #f6bb73 0%,
-    #f6bb73 30%,
-    white 50%,
-    #f6bb73 80%,
-    #f6bb73 100%
-  );
   background-image: linear-gradient(
     30deg,
     #f6bb73 0%,
@@ -75,6 +59,11 @@ header {
   color: #343a40;
 }
 
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #000000;
+}
+
 a:focus, a:hover {
   font-weight: bold;
 }
@@ -85,3 +74,14 @@ footer {
   text-align: center;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.5rem;
+}
