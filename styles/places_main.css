@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Papyrus', 'Copperplate', fantasy, sans-serif;
+  font-family: 'Papyrus', 'Copperplate', fantasy;
   font-size: 100%;
   width: 98%;
   max-width: 960px;
@@ -20,27 +20,59 @@ body {
   line-height: 1.6;
 }
 
+body a {
+    background-color: white;
+}
+body li {
+    background-color: white;
+}
+
 a:focus, a:hover {
   font-weight: bold;
-  transition: color 0.3s ease-in-out; /* Added hover animation */
+  transition: color 0.3s ease-in-out; 
 }
 
 header {
-  padding: 20px;
-  border-bottom: 3px solid silver;
+  background-color: #343a40;
+  color: #ffffff;
   text-align: center;
-  background: linear-gradient(
+  padding: 20px;
+  background-image: -moz-linear-gradient(
     30deg,
     #f6bb73 0%,
     #f6bb73 30%,
-    #ffffff 50%,
+    white 50%,
+    #f6bb73 80%,
+    #f6bb73 100%
+  );
+  background-image: -webkit-linear-gradient(
+    30deg,
+    #f6bb73 0%,
+    #f6bb73 30%,
+    white 50%,
+    #f6bb73 80%,
+    #f6bb73 100%
+  );
+  background-image: -o-linear-gradient(
+    30deg,
+    #f6bb73 0%,
+    #f6bb73 30%,
+    white 50%,
+    #f6bb73 80%,
+    #f6bb73 100%
+  );
+  background-image: linear-gradient(
+    30deg,
+    #f6bb73 0%,
+    #f6bb73 30%,
+    white 50%,
     #f6bb73 80%,
     #f6bb73 100%
   );
 }
 
 .navbar {
-  background-color: #007bff;
+  background-color: #ffffff;
 }
 
 .navbar-brand img {
@@ -51,9 +83,14 @@ header {
   background-color: #343a40;
 }
 
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #000000; 
+}
+
 .navbar-nav .nav-link {
   color: #343a40;
-  transition: color 0.3s ease-in-out; /* Added hover animation */
+  transition: color 0.3s ease-in-out; 
 }
 
 .navbar-nav .nav-link:hover {
@@ -65,4 +102,15 @@ footer {
   background-color: #f8f9fa;
   padding: 10px;
   text-align: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
 }
