@@ -18,11 +18,21 @@ body {
   border: 3px solid silver;
   background-color: #dcdcdc;
   line-height: 1.6;
+}
 
+body a {
+    background-color: white;
+}
+body li {
+    background-color: white;
 }
 
 nav {
-  background-color: #007bff; /* Bootstrap's primary color */
+  background-color: #007bff; 
+}
+
+.navbar {
+    background-color: #ffffff; 
 }
 
 .navbar-brand img {
@@ -31,6 +41,11 @@ nav {
 
 .navbar-toggler-icon {
   background-color: #343a40;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #000000; 
 }
 
 .navbar-nav .nav-link {
@@ -69,4 +84,11 @@ footer {
 .footer {
   background-color: #343a40;
   color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.5rem;
 }
