@@ -9,7 +9,7 @@ html {
   background-color: white;
 }
 body {
-  font-family: Papyrus, Copperplate, fantasy;
+  font-family: 'Papyrus', 'Copperplate', fantasy;
   font-size: 100%;
   width: 98%;
   max-width: 960px;
@@ -17,6 +17,12 @@ body {
   border: 3px solid silver;
   background-color: #dcdcdc;
   line-height: 1.6;
+}
+body a {
+    background-color: white;
+}
+body li {
+    background-color: white;
 }
 a:focus,a:hover {
   font-weight: bold;
@@ -59,7 +65,7 @@ header {
   );
 }
 .navbar {
-  background-color: #007bff;
+  background-color: #ffffff;
 }
 .navbar-brand img {
   margin-right: 10px;
@@ -68,18 +74,23 @@ header {
   background-color: #343a40;
 }
 .navbar-nav .nav-link {
-  color: #343a40;
+  color: #343a40; 
 }
 nav a:hover {
   color: #007bff;
 }
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #000000; 
+}
 main {
-  padding: 20px;
+  padding-bottom: 60px;
 }
 article {
   margin-bottom: 20px;
 }
 article img {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Updated box shadow */
   max-width: 100%;
   height: auto;
 }
@@ -99,4 +110,11 @@ footer {
 .footer {
   background-color: #343a40;
   color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.5rem;
 }
