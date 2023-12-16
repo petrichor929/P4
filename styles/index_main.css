@@ -8,7 +8,7 @@ html {
   background-color: white;
 }
 body {
-  font-family: Papyrus, Copperplate, fantasy;
+  font-family: 'Papyrus', 'Copperplate', fantasy;
   font-size: 100%;
   width: 98%;
   max-width: 960px;
@@ -16,6 +16,12 @@ body {
   border: 3px solid silver;
   background-color: #dcdcdc;
   line-height: 1.6;
+}
+body a {
+    background-color: white;
+}
+body li {
+    background-color: white;
 }
 a:focus,a:hover {
   font-weight: bold;
@@ -69,11 +75,14 @@ header {
 .navbar-nav .nav-link {
   color: #343a40;
 }
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff;
+}
 nav a:hover {
-  color:#007bff;
+  color: #ffffff; 
 }
 main {
-  padding: 20px;
+  padding-bottom: 60px; 
 }
 /* Card styling */
 .card {
@@ -92,4 +101,15 @@ footer {
   background-color: #f8f9fa;
   padding: 10px;
   text-align: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
 }
